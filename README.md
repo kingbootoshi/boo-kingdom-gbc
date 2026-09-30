@@ -34,13 +34,40 @@ Get `boo-kingdom.gbc` from the [latest release](../../releases/latest).
 
 ## How to play
 
-**On a computer.** Open the ROM in a Game Boy Color emulator:
+### On a ModRetro Chromatic (DevDay Edition)
+
+You need the setup from ModRetro's [DevDay quickstart guide](https://modretro.com/00011): updated firmware, Developer Mode turned on, and your AI coding agent with the ModRetro Chromatic plugin installed.
+
+1. Put the cartridge you want to use in your Chromatic. The demo cartridge works.
+2. Connect the Chromatic to your computer with USB and turn it on.
+3. Give your agent this prompt:
+
+```
+Use the ModRetro Chromatic plugin to flash Boo Kingdom to the cartridge in my connected Chromatic.
+Download the ROM from https://github.com/kingbootoshi/boo-kingdom-gbc/releases/latest/download/boo-kingdom.gbc
+It is an original homebrew game, 512 KB, MBC5 with battery save.
+After flashing, tell me to turn the Chromatic off and on to start it.
+```
+
+Flashing replaces the game that is on that cartridge now.
+
+Want to try it before you flash? Ask your agent: `Stream a live demo of the Boo Kingdom ROM to my connected Chromatic.` The game runs on your computer and the Chromatic shows it. Nothing is written to your cartridge.
+
+### On a computer
+
+Open the ROM in a Game Boy Color emulator:
 
 - [SameBoy](https://sameboy.github.io) (macOS, Windows, Linux). On macOS: `brew install --cask sameboy`
 - [mGBA](https://mgba.io) (macOS, Windows, Linux)
 - [Emulicious](https://emulicious.net) (Windows, macOS, Linux; needs Java)
 
-**On a real Game Boy Color.** Copy the ROM to a flash cartridge, like an EverDrive GB X7, or write it to an MBC5 cart with battery save. It also runs on the ModRetro Chromatic.
+### On another Game Boy Color
+
+Copy the ROM to a flash cartridge, like an EverDrive GB X7, or write it to an MBC5 cart with battery save.
+
+### Updates keep your save
+
+A new version of the ROM loads a save from an older version. In an emulator, replace the `.gbc` and keep your `.sav` file next to it with the same name.
 
 New to the game? Read the [game guide](GUIDE.md). It has no story spoilers.
 
