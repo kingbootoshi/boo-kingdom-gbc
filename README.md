@@ -52,4 +52,4 @@ Built with [GBDK-2020](https://github.com/gbdk-2020/gbdk-2020).
 
 ## License
 
-You may play the ROM and share it unmodified, for free. The Boo characters, art, story and music belong to Bootoshi. All rights reserved.
+Copyright Bootoshi. All rights reserved.
