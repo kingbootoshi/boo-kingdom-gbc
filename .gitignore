@@ -1,0 +1,4 @@
+*.gbc
+*.sav
+.agent/
+.DS_Store
